@@ -1,0 +1,19 @@
+You are installing a billboard and want it to be at the maximum height. The billboard will have two steel supports, one on each side. The height of each steel bracket must be equal.
+
+You have a number of rebar rods that can be welded together. For example, if the bars are of length 1, 2, and 3, they can be welded together to form a length of 6 brackets.
+
+Return the maximum possible installation height of the billboard. Return 0 if the billboard cannot be installed.
+
+SAMPLE INPUT 
+4
+1 2 3 6
+SAMPLE OUTPUT 
+6
+Explanation
+input: [1, 2, 3, 6]
+
+output： 6
+
+Explanation：We have two disjoint subsets {1, 2, 3} and {6} with the same sum
+
+sum = 6 .
